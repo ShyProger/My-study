@@ -1,0 +1,41 @@
+img{
+    margin: 0px 70px  ;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 576px;
+}
+div.main{
+    background-color: rgb(51, 51, 51);
+    height: auto;
+    overflow: hidden;
+}
+div.navign{
+    width: 15em;
+    background-color: lightgray;
+    float: left;
+   
+}
+div.article1{
+    background-color: rgb(101, 107, 114);
+    margin-bottom: 0.2em; 
+}
+div.article2{
+    background-color: rgb(101, 107, 114);
+    margin-bottom: 0.2em;
+    float: left;
+    max-width: max-content;
+    
+}
+div.footer{
+    background-color: rgb(175, 175, 175);
+    clear: both;
+}
+p{
+    white-space: pre; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.head{
+    margin-block: 0px;
+}
