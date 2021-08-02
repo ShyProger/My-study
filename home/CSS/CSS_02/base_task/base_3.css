@@ -1,9 +1,9 @@
 img{
-    margin: 0px 70px  ;
+    
     height: auto;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0px 576px;
+    
+    
+   
 }
 div.main{
     background-color: rgb(51, 51, 51);
@@ -23,8 +23,8 @@ div.article1{
 div.article2{
     background-color: rgb(101, 107, 114);
     margin-bottom: 0.2em;
-    float: left;
-    max-width: max-content;
+    margin-left: 240px;
+    
     
 }
 div.footer{
@@ -38,4 +38,7 @@ p{
 }
 .head{
     margin-block: 0px;
+}
+div.rasp{
+    clear: both;
 }
