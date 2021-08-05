@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    @media all and (min-width:566px){
+        div.main{
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            flex-grow: 0;
+        }
+        div.menu{
+            border: 1px black solid;
+            background-color: gray;
+            color: lightgray;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 150px;
+            transition-property: all;
+            transition-duration: 1s;
+            
+        }
+        div.menu2{
+            display: none;
+            border-radius: 4px;
+            cursor: pointer;
+            opacity: 0;
+            transition-property: all;
+            transition-duration: 1s;
+        }
+        div.menu:hover>div{
+            display: block;
+            position: absolute;
+            z-index: 1;
+            flex-grow: 1;
+            width: inherit;
+            transition-property: all;
+            transition-duration: 1s;
+            opacity: 1;
+        }
+        div.menu:hover{
+            color: lightgray;
+            background-color: rgb(70, 66, 66); 
+        }
+        .menu3{
+            border: 1px black solid;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: gray;
+            color: lightgray;
+        }
+    }
+    @media all and (max-width:566px){
+        div.main{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            flex-grow: 0;
+            flex-wrap: wrap;
+        }
+        div.menu{
+            border: 1px black solid;
+            background-color: gray;
+            color: lightgray;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 150px;
+        }
+        div.menu2{
+            display: none;
+            border-radius: 4px;
+            cursor: pointer; 
+        }
+        div.menu:hover>div{
+            display: block;
+            position: absolute;
+            z-index: 1;
+            flex-grow: 1;
+            width: inherit;
+            margin-left: 20%;
+        }
+        div.menu:hover{
+            color: lightgray;
+            background-color: rgb(70, 66, 66); 
+        }
+        .menu3{
+            border: 1px black solid;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: gray;
+            color: lightgray;
+        }
+    }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+<div class="main">
+    <div class="menu">Понедельник
+        <div class="menu2">
+        <div class="menu3">Завтрак</div>
+        <div class="menu3">Обед</div>
+        <div class="menu3">Ужин</div>
+        </div>
+    </div>
+    <div class="menu">Вторник
+        <div class="menu2">
+        <div class="menu3">Завтрак</div>
+        <div class="menu3">Обед</div>
+        <div class="menu3">Ужин</div>
+        </div>
+    </div>
+    <div class="menu">Среда
+        <div class="menu2">
+        <div class="menu3">Завтрак</div>
+        <div class="menu3">Обед</div>
+        <div class="menu3">Ужин</div>
+        </div>
+    </div>
+    <div class="menu">Четверг
+        <div class="menu2">
+        <div class="menu3">Завтрак</div>
+        <div class="menu3">Обед</div>
+        <div class="menu3">Ужин</div>
+        </div>
+    </div>
+    <div class="menu">Пятница
+        <div class="menu2">
+        <div class="menu3">Завтрак</div>
+        <div class="menu3">Обед</div>
+        <div class="menu3">Ужин</div>
+        </div>
+    </div>
+    <div class="menu">Суббота
+        <div class="menu2">
+        <div class="menu3">Завтрак</div>
+        <div class="menu3">Обед</div>
+        <div class="menu3">Ужин</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

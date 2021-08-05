@@ -1,0 +1,44 @@
+
+img{   
+    height: auto;
+}
+div.main{
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+div.article{
+    flex-direction: column;
+    align-items: stretch;
+    flex-grow: 1;
+}
+div.navign{
+    width: 15em;
+    background-color: lightgray;
+    
+   
+}
+div.article1{
+    background-color: rgb(101, 107, 114);
+    margin-bottom: 0.2em;
+}
+div.article2{
+    background-color: rgb(101, 107, 114);
+    margin-bottom: 0.2em;
+    overflow: hidden;
+    
+}
+div.footer{
+    background-color: rgb(175, 175, 175);
+   
+}
+p{
+    white-space: pre; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.head{
+    margin-block: 0px;
+}

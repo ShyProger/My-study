@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            border: 1px lightgray solid;
+            margin: 3px;
+            border-top-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li::before{
+            content: url(../base_1/pic/logo-list.jpg);
+        }
+        .doc::before{
+            content: url(../base_1/pic/extref.png);
+        }
+        .docm::after{
+            content: url(../base_1/pic/logo-doc.jpg);
+        }
+        .pdf::after{
+            content: url(../base_1/pic/logo-pdf.png);
+        }
+        .zip::after{
+            content: url(../base_1/pic/logo-zip.gif);
+        }
+        li:first-child:hover>a::after{
+            content: url(../base_1/pic/logo-doc.jpg);
+        }
+        li:nth-child(2):hover>a::after{
+            content: url(../base_1/pic/logo-pdf.png);
+        }
+        li:last-child:hover>a::after{
+            content: url(../base_1/pic/logo-zip.gif);
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Форматы файлов</h1>
+<div><p>.doc или .DOC (от англ. <a  class="doc" href="https://ru.wikipedia.org/wiki/.doc" target="_blank">Document</a>) — расширение имени файла, используемое для файлов, представляющих текст, с разметкой или без. Расширение «.doc» часто использовалось для обозначения текстовых файлов, содержащих текст без форматирования, позже стало использоваться для двоичных форматов с разметкой. <a class="docm" href="https://ru.wikipedia.org/wiki/.doc" target="_blank">Документ MS Word</a></p></div>
+<div><p>Portable Document Format (<a class="doc" href="https://ru.wikipedia.org/wiki/Portable_Document_Format" target="_blank">PDF</a>) — межплатформенный открытый формат электронных документов, изначально разработанный фирмой Adobe Systems с использованием ряда возможностей языка PostScript. <a class="pdf" href="https://ru.wikipedia.org/wiki/Portable_Document_Format" target="_blank">Документ PDF</a></p></div>
+<div><p>ZIP - популярный формат сжатия данных и архивации файловю Фйал в этом формате обычно имеет расширение <a class="doc" href="https://ru.wikipedia.org/wiki/ZIP" target="_blank">.zip</a> и хранит в сжатом или несжатом виде один или несколько файловБ которые можно из него извлечь путём распаковки с помощью специальной программы. <a class="zip" href="https://ru.wikipedia.org/wiki/ZIP" target="_blank">Архив</a></p></div>
+<h1>Это список из файлов</h1>
+<ul>
+    <li><a href="https://ru.wikipedia.org/wiki/.doc" target="_blank">Документ MS Word</a></li>
+    <li><a href="https://ru.wikipedia.org/wiki/Portable_Document_Format" target="_blank">Документ PDF</a></li>
+    <li><a href="https://ru.wikipedia.org/wiki/ZIP" target="_blank">Архив</a></li>
+</ul>
+</body>
+</html>
