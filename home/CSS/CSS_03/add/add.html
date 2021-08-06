@@ -29,7 +29,8 @@
             cursor: pointer;
             opacity: 0;
             transition-property: all;
-            transition-duration: 1s;
+            transition: 0.5s all;
+            overflow: hidden;
         }
         div.menu:hover>div{
             display: block;
@@ -40,6 +41,8 @@
             transition-property: all;
             transition-duration: 1s;
             opacity: 1;
+            transition: 0.5s all;
+            overflow: hidden;
         }
         div.menu:hover{
             color: lightgray;
@@ -51,6 +54,7 @@
             cursor: pointer;
             background-color: gray;
             color: lightgray;
+            transition: 0.5s all;
         }
     }
     @media all and (max-width:566px){
@@ -73,6 +77,7 @@
             display: none;
             border-radius: 4px;
             cursor: pointer; 
+            transition: 0.5s all;
         }
         div.menu:hover>div{
             display: block;
@@ -81,6 +86,7 @@
             flex-grow: 1;
             width: inherit;
             margin-left: 20%;
+            transition: 0.5s all;
         }
         div.menu:hover{
             color: lightgray;
@@ -92,6 +98,8 @@
             cursor: pointer;
             background-color: gray;
             color: lightgray;
+            transition: 0.5s all;
+            overflow: hidden;
         }
     }
     </style>
