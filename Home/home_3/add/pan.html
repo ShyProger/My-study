@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            height: 300px;
+        }
+        .top{
+            background-image: url(top1.png);
+            background-repeat: no-repeat;
+            background-position: 0px 30px;
+            z-index: 3;
+        }
+        .bottom{
+            background-image: url(bottom_pan.png);
+            background-repeat: no-repeat;
+            background-position: 0px -150px;
+            z-index: 2;
+        }
+        .front{
+            background-image: url(front_pan.png);
+            background-repeat: no-repeat;
+            background-position: 0px -150px;
+            z-index: 4;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="bottom">
+        <div class="top">
+            <div class="front">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
