@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 align="center">Тег Area</h2>
+    <p>Тег &#60;area&#62; определяет интерактивную область в изображении-карте (элемент &#60;map&#62;), т.е. при клике на определённую область изображения происходят определённые действия, например, открывается отдельная страница с описанием данного участка изображения. Этот тег всегда располагается в контейнере &#60;map&#62;, который связывает координаты областей с изображением. Несколько областей могут перекрывать друг друга, сверху будет та, которая в коде HTML располагается выше. Атрибутами тега &#60;area&#62; мы указываем как координаты области (атрибут coords), так и тип необходимой нам фигуры (атрибут shape):</p>
+    <p style="font-size: larger; font-weight: 700;">Для демонстрации кликните на любую выделенную фигуру на картинке ниже!!!</p>
+    <div><img src="img/area.PNG" alt="area" usemap="#area">
+    <map name="area">
+        <area shape="circle" coords="257,380,80" href="http://htmlbook.ru/html/area" alt="circle" target="_blank">
+        <area shape="rect" coords="130,576,296,665" href="http://htmlbook.ru/html/area" alt="rect" target="_blank">
+        <area shape="poly" coords="531,420,635,538,718,384" href="http://htmlbook.ru/html/area" alt="poly" target="_blank">
+    </map>
+    </div>
+    <p style="font-size: larger; font-weight: 700;">Для демонстрации кликните на любую выделенную фигуру на картинке выше!!!</p>
+</body>
+</html>
