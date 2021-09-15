@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+            margin:auto;
+        }
+        td{
+            border-right: 3px solid red;
+            padding-inline: 8px;
+        }
+        a:hover{
+            color: red;
+        }
+        div.second{
+            margin: 0 29%;
+            overflow: hidden;
+        }
+        div.second div{
+            float: left;
+            margin-left: 10px;
+            border-right: 3px solid red;
+            padding-right: 10px;
+        }
+        span:after{
+            content: url(border.png);
+            vertical-align: -24px;
+        }
+        div.third{
+            text-align: center;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1й способ таблицей: довольно простой макет, где разделите сделаны с помощью правой границы каждой ячейки
+    недостаток - остуствие адаптива. -->
+
+    <table>
+        <tr>
+            <td><a href="#">первая ссылка</a></td>
+            <td><a href="#">вторая ссылка</a></td>
+            <td><a href="#">третья ссылка</a></td>
+            <td><a href="#">четвертая ссылка</a></td>
+            <td><a href="#">пятая ссылка</a></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <!-- 2й способ зафлочеными div: ссылки располагаются в одну строку благодаря свойству float:left,
+    разделители образованы свойством border-right.
+    Адаптивен.В недостатках не разобрался. -->
+    <div class="second">
+        <div><a href="#"> первая ссылка</a></div>
+        <div><a href="#"> вторая ссылка</a></div>
+        <div><a href="#"> третья ссылка</a></div>
+        <div><a href="#"> четвертая ссылка</a></div>
+        <div><a href="#"> пятая ссылка</a></div>
+    </div>
+    <br>
+    <br>
+    <!-- 3й способ с помощью псевдокласса :after
+    ссылки в одной строке, т.к. теги span являются строчными в одном контейнере; 
+    разделители сделал с помощью псевдокласса after: и картинки самого разделителя;
+    Из достоинств стоит выделить, что впреть при каждой добавлении ещё одного span, автоматически будет создаваться разделитель;
+    Из недостатков наверное, что разделитель можно редактировать только с помощью фотошопа, или я просто не знаю как -->
+    <div class="third">
+        <span><a href="#">первая ссылка</a></span>
+        <span><a href="#">вторая ссылка</a></span>
+        <span><a href="#">третья ссылка</a></span>
+        <span><a href="#">четвертая ссылка</a></span>
+        <span><a href="#">пятая ссылка</a></span>
+    </div>
+    
+</body>
+</html>
