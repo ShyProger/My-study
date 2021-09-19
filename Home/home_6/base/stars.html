@@ -5,20 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        img:hover{
-            
-            
+        div.main{
+            float: left;
+        }
+        div.main>div{
+            float: right;
+            height: 80px;
+            width: 80px;
+            background-image: url(star0.png);
+            background-repeat: no-repeat;
+        }
+        div.main>div:hover ~ div:before,div.main>div:hover{
+            content: url(star1.png);
         }
     </style>
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <img src="star0.png" alt="star0">
-        <img src="star0.png" alt="star0">
-        <img src="star0.png" alt="star0">
-        <img src="star0.png" alt="star0">
-        <img src="star0.png" alt="star0">
-    </div>
+<div class="main">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
 </body>
 </html>
