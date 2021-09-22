@@ -463,4 +463,137 @@ div.basket img{
     font-size: 14px;
     line-height: 19px;
 }
-
+/* more goods */
+div.expand{
+    margin-top: 10px;
+    height: 76px;
+}
+div.more-goods{
+    width: 149px;
+    height: 47px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 7px;
+    float: left;
+    margin-top: 28px;
+    margin-left: 573px;
+    text-align: center;
+}
+div.more-goods span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: inline-block;
+    vertical-align: -12px;
+}
+div.open img{
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 28px;
+    transform: rotate(-90deg);
+}
+div.open{
+    float: right;
+    margin-right: 80px;
+}
+div.amount-of-goods{
+    margin-top: 20px;
+    margin-left: 581px;
+    width: 131px;
+    height: 16px;
+}
+div.amount-of-goods span{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* footer */
+div.footer{
+    width: 1296px;
+    height: 439px;
+    background: #F0F0F0;
+}
+.footer-info{
+    height: 272px;
+}
+div.services{
+    width: 177px;
+    height: 206px;
+    float: left;
+    margin-top: 66px;
+    margin-left: 128px;
+}
+div.about-company{
+    width: 159px;
+    height: 146px;
+    float: left;
+    margin-left: 126px;
+    margin-top: 66px;
+}
+div.catalog{
+    width: 184px;
+    height: 176px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 66px;
+}
+div.social-network{
+    width: 216px;
+    height: 127px;
+    float: left;
+    margin-top: 66px;
+    margin-left: 88px;
+}
+ul{
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;  
+    
+}
+ul li{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 6px;
+    opacity: .9;
+}
+ul li:first-child{
+    margin-top: 12px;
+}
+div.social-network span{
+    display: inline-block;
+    margin-right: 1px;
+    margin-bottom: 20px;
+}
+div.social-network img{
+    width: 130px;
+    height: 41px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+/* network */
+div.network{
+    text-align: center;
+    margin-top: 56px;
+}
+div.network img{
+    margin-right: 12px;
+    border-radius: 3px;
+}
+div.company-rights{
+    width: 335px;
+    height: 32px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 481px;
+    margin-top: 14px;
+}
