@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 10000px;
+   
     font-family: 'Noto Sans Display', sans-serif;
 }
 .conteiner{
@@ -12,6 +12,9 @@ body{
     margin: 0 auto;
     
 }
+
+/* header */
+
 .header{
     width: 1296px;
     height: 231px;
@@ -70,7 +73,9 @@ img{
     font-size: 16px;
     line-height: 22px;
 }
+
 /* second-head */
+
 .second-head{
     float: left;
 }
@@ -136,7 +141,9 @@ div.cap{
     margin-top: 15px;
     margin-right: 24px;
 }
+
 /* header-menu */
+
 .header-menu{
     width: 697px;
     height: 22px;
@@ -152,7 +159,9 @@ div.cap{
 .header-menu span:last-of-type{
     color: #FF715B;
 }
+
 /* cover */
+
 .cover{
     width: 1296px;
     height: 381px;
@@ -194,7 +203,9 @@ div.cap{
 .cover-text{
     margin-top: 46px
 }
+
 /* menu */
+
 .menu{
     width: 1296px;
     height: 83px;
@@ -224,10 +235,12 @@ div.cap{
     height: 21px;
     vertical-align: bottom;
 }
+
 /* goods */
+
 div.goods{
     width: 1296px;
-    height: 2624px;
+    height: 2562px;
     background: #F9F9F9;
     margin-top: -6px;
 }
@@ -269,7 +282,9 @@ div.goods{
 .sorting span:last-of-type{
     margin-right: 0;
 }
+
 /* window of goods */
+
 div.name{
     float: left;
 }
@@ -298,7 +313,9 @@ div.name h2{
 div.sorting-view{
     height: 49px;
 }
+
 /* cards */
+
 div.window-goods div.card:nth-child(3){
     margin-top: 28px;
 }
@@ -335,7 +352,9 @@ div.name-of-card p{
 div.name-of-card img:last-child{
     margin-right: -8px;
 }
+
 /* artikul */
+
 div.artikul{
     margin-right: 717px;
     font-style: normal;
@@ -344,7 +363,9 @@ div.artikul{
     line-height: 160%;
     color: rgba(0, 0, 0, 0.2);
 }
+
 /* rating */
+
 div.rating img{
     float: right;
     margin-left: 1px;
@@ -361,7 +382,9 @@ div.rating img{
 div.rating img:hover ~ img,div.rating img:hover{
     opacity: 1;
 }
+
 /* descrtiption */
+
 div.card-info{
     margin-top: 62px;
     height: 66px;
@@ -386,7 +409,9 @@ div.price{
     font-size: 28px;
     line-height: 160%;
 }
+
 /* delivery and basket */
+
 div.delivery-basket{
     margin-top: 8px;
 }
@@ -428,7 +453,9 @@ div.basket img{
     width: 18px;
     float: left;
 }
+
 /* other goods */
+
 .other-goods{
     margin-top: 16px;
     border-radius: 8px;
@@ -463,7 +490,9 @@ div.basket img{
     font-size: 14px;
     line-height: 19px;
 }
+
 /* more goods */
+
 div.expand{
     margin-top: 10px;
     height: 76px;
@@ -511,7 +540,9 @@ div.amount-of-goods span{
     line-height: 16px;
     color: rgba(0, 0, 0, 0.5);
 }
+
 /* footer */
+
 div.footer{
     width: 1296px;
     height: 439px;
@@ -577,7 +608,9 @@ div.social-network img{
     border-radius: 10px;
     margin-bottom: 5px;
 }
+
 /* network */
+
 div.network{
     text-align: center;
     margin-top: 56px;
