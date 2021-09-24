@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+@media all and (max-width:600px){
+    div.header+div.left-back{
+        background-image: none;
+    }
+    div.menu{
+        width: 100%;
+        height: 250px;
+        text-align: center;
+        background-color: burlywood;
+    }
+    div.left-back{
+        background-image: none;   
+    }
+    ul{
+        list-style-type: none;
+    }
+    div.content{
+        margin-left: 0;
+    }
+    .footer h2{
+        font-size: large;
+    }
+}
+div.left-back{
+    background-image: url(img/back.png); background-repeat: repeat-y;background-position-x: -50px;
+}
+.header{
+    text-align: center;
+    color: blue;
+    background-color: lightblue;
+}
+.menu{
+    float: left;
+    padding: 10px;
+    padding-left: 1px;
+    padding-top: 15px;
+    
+    text-align: left;
+    margin-right: 15px;
+    width: 200px;
+}
+.content{
+    padding: 10px;
+    background-image: url(http://fe.it-academy.by/Materials/HTMLCSS_V14/images/ball3.png);
+    background-position: right;
+    background-repeat: repeat-y;
+    margin-left: 200px;
+}
+h2{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    color: blue;
+    background-color: lightblue;
+    font-size: 22px;
+}
+div.content img{
+    float: left;
+}

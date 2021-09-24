@@ -1,0 +1,46 @@
+@media print{
+    a{
+        content: attr(alt="инфа");
+    }
+    p{
+        color: chartreuse;
+    }
+    p.champ + p span{
+        display: block;
+        color: yellow;
+    }
+    p.champ + p > a{
+        display: none;
+    }
+}
+@media screen {
+    p.champ + p span{
+        display: none;
+    }
+}
+p{
+    white-space: pre-wrap;
+    color: blue;
+    font-style: italic;
+}
+.h2{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+.birth{
+    font-style: normal;
+    color: green;
+}
+.champ{
+    font-style: normal;
+    color: red;
+    font-weight: 600;
+}
+a{
+    background-image: url(extref.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+    padding-left: 10px;
+}
