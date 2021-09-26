@@ -12,6 +12,14 @@ body{
     margin: 0 auto;
     
 }
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
 
 /* header */
 
@@ -23,7 +31,7 @@ body{
     float: left;
     width: 430px;
     height: 16px;
-    margin-top: 29px;
+    margin-top: 27px;
     margin-left: 80px;
 }
 .header-info span{
@@ -45,11 +53,12 @@ body{
 .phone a{
     text-decoration: none;
     color: black;
+    vertical-align: 7px;
 }
 .header-right{
     float: right;
     margin-left: 90px;
-    margin-top: 30px;
+    margin-top: 23px;
     margin-right: 151px;
 }
 .header-right img:nth-child(1),
@@ -440,6 +449,7 @@ div.delivery-card img + span{
     font-size: 14px;
     line-height: 19px;
     vertical-align: -20px;
+    margin-top: 16px
 }
 div.delivery-card div span{
     vertical-align: -14px;
@@ -447,11 +457,16 @@ div.delivery-card div span{
     font-size: 16px;
     line-height: 22px;  
     color: #FFFFFF;
+    margin-right: 20px;
+    margin-top: 14px;
 }
 div.basket img{
     height: 18px;
     width: 18px;
     float: left;
+    margin-right: 0;
+    margin-top: 17px;
+    margin-left: 23px;
 }
 
 /* other goods */
