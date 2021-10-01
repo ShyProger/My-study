@@ -1,0 +1,88 @@
+
+span{
+    display: inline-block;
+}
+div.article, div.rubric, div.publication{
+    height: 25px;
+}
+div.article div:first-child{
+    float: left;
+    width: 152px;
+}
+div.article div input{
+    width: 100%;
+}
+div.rubric div:first-child{
+    float: left;
+    width: 152px;
+}
+div.rubric div:last-child{
+    float: left;
+}
+div.publication div:first-child{
+    float: left;
+    width: 152px;
+}
+div.publication div:last-child{
+    float: left;
+}
+textarea{
+    width: 100%;
+}
+.wide {
+    overflow: hidden;
+  }
+.input {
+    display: block;
+    width: 100%;
+}
+@media all and (min-width:600px){
+    /* div.mobile{
+        display: none;
+    } */
+    .br{
+        display: none;
+    }
+}
+@media all and (max-width:600px){
+    /* div{
+        display: none;
+    }
+    div.mobile{
+        display: block;
+    } */
+    div.article div:first-child{
+        float: none;
+        width: 152px;
+    }
+    div.article div input{
+        width: 100%;
+    }
+    div.rubric div:first-child{
+        float: none;
+        width: 152px;
+    }
+    div.rubric div:last-child{
+        float: none;
+    }
+    div.publication div:first-child{
+        float: none;
+        width: 152px;
+    }
+    div.publication div:last-child{
+        float: none;
+    }
+    textarea{
+        width: 100%;
+    }
+    .wide {
+        overflow: visible;
+      }
+    .input {
+        display: block;
+        width: auto;
+    }
+    div.article, div.rubric, div.publication{
+        height: auto;
+    }
+}

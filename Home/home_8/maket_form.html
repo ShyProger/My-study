@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="mobile">
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <form action="http://fe.it-academy.by/TestForm.php" method="GET">Название статьи:<br>
+            <input type="text" style="width: 100%;"><br>
+        Рубрика: <br>
+            <select name="rubrika" id="rubrika"><br>
+                <option value="1">компьютерная техника</option>
+                <option value="2">графика и дизайн</option>
+                <option value="3">программирование</option>
+            </select> <br>
+        Публикация: <br>
+            <input type="radio" name="publication" value="1">на сайте<br>
+            <input type="radio" name="publication" value="2" checked>в журнале<br>
+            <input type="radio" name="publication" value="3">на сайте и в журнале<br>
+        Разрешить комментарии:
+            <input type="checkbox"> <br>
+        Текст статьи: <br>
+            <textarea name="text_article" id="article" cols="30" rows="10"></textarea> <br>
+            <input type="submit" value="Опубликовать">
+        </form>
+    </div> -->
+
+    <div class="main">
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <div class="article">
+            <div><span>Название статьи:</span></div>
+                <div class="wide"><input class="input" type=text></div>
+            </div>
+        </div>
+        <div class="rubric">
+            <div><span>Рубрика:</span></div>
+            <div>
+                <form action="http://fe.it-academy.by/TestForm.php" method="GET">
+                
+                    <select name="rubrika" id="rubrika">
+                        <option value="1">компьютерная техника</option>
+                        <option value="2">графика и дизайн</option>
+                        <option value="3">программирование</option>
+                    </select> 
+                </form>
+            </div>
+        </div>
+        <div class="publication">
+            <div><span>Публикация:</span></div>
+            <div>
+                <form action="http://fe.it-academy.by/TestForm.php" method="GET">
+                
+                    <input type="radio" name="publication" value="1">на сайте <br class="br">
+                    <input type="radio" name="publication" value="2" checked>в журнале <br class="br">
+                    <input type="radio" name="publication" value="3">на сайте и в журнале <br class="br">
+                </form>
+            </div>
+        </div>
+        <div class="comments">
+            <form action="http://fe.it-academy.by/TestForm.php" method="GET">
+                Разрешить комментарии:
+                <input type="checkbox"><br>
+                <span>Текст статьи:</span> <br>
+                <textarea name="text_article" id="article"></textarea> <br>
+                <input type="submit" value="Опубликовать">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
