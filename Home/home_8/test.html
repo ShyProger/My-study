@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            text-align: center;
+        }
+        input{
+            display: none;
+        }
+        label::before{
+            height: 20px;
+            width: 20px;
+            background-image: url("check.png");
+        }
+        input:checked + label::before{
+            content: "";
+            height: 20px;
+            width: 20px;
+            background-image: url("check.png");
+        }
+        input + label::before{
+            content: url(position/img/Man-and-woman.png);
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        
+        <form action="get">
+            
+            <input type="checkbox" id="check">
+            <label for="check"></label>
+        </form>
+    </div>
+</body>
+</html>

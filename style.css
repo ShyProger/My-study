@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 787px;
+    width: 100%;
+    background-image: url(img/Background.png);
+    animation: back 41s steps(608) infinite;
+}
+@keyframes back
+        {
+            from{
+                background-position: 0px;
+            }
+            to{
+                background-position:  -928px; 
+            } 
+        }
+.ex2
+{
+    width: calc(1472px / 8);
+    height: 325px;
+    background: url('img/pngwing.com.png');
+    animation: MyAnimation2 1s steps(8) infinite,
+        step 10s linear infinite;
+    position: absolute;
+    left: -132px;
+    top: 55%;
+    
+}
+@keyframes MyAnimation2
+{
+    from{
+        background-position: 0px;
+    }
+    to{
+        background-position:  -1472px; 
+    } 
+}
+@keyframes step {
+    100%{
+        left: 100%;
+    }
+}
+h3 {
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #FFFFFF;
+    }
+a {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    color: #FFFFFF;
+}
+li {
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+    }
