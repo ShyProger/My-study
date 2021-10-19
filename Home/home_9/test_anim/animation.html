@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .main{
+            height: 500px;
+            width: 600px;
+            margin:  0 auto;
+            background-image: linear-gradient(0deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            transition: 1.5s;
+            position: relative;
+            animation: grad 5s ease infinite;
+        }
+        @keyframes grad{
+            1%{
+                background-image: linear-gradient(0deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            5%{
+                background-image: linear-gradient(15deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            10%{
+                background-image: linear-gradient(20deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            15%{
+                background-image: linear-gradient(25deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            20%{
+                background-image: linear-gradient(30deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            25%{
+                background-image: linear-gradient(35deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            30%{
+                background-image: linear-gradient(45deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            35%{
+                background-image: linear-gradient(50deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            40%{
+                background-image: linear-gradient(55deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            45%{
+                background-image: linear-gradient(60deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            50%{
+                background-image: linear-gradient(65deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            55%{
+                background-image: linear-gradient(70deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            60%{
+                background-image: linear-gradient(75deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            65%{
+                background-image: linear-gradient(80deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            70%{
+                background-image: linear-gradient(85deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            75%{
+                background-image: linear-gradient(90deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            80%{
+                background-image: linear-gradient(95deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            85%{
+                background-image: linear-gradient(100deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            90%{
+                background-image: linear-gradient(110deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            95%{
+                background-image: linear-gradient(120deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+            100%{
+                background-image: linear-gradient(130deg, rgb(206, 47, 126), rgb(34, 43, 141));
+            }
+        }
+
+        .main:hover{
+            height: 700px;
+            width: 100%;
+            transform: perspective(500px) rotate3d(30, 90, 0, 40deg);
+        }
+        .sms{
+            display: none;
+        }
+        .main:hover>.sms{
+            display: block;
+        }
+        div.sms{
+            text-align: center;
+            margin-top: 30px;
+            font-weight: 700;
+            font-size: 30px;
+            height: 100px;
+            width: 150px;
+            margin-top: 20%;
+            border-radius: 4px;
+            background-color: white;
+            color: violet;
+            position: absolute;
+            left: -132px;
+            animation: message 7s linear infinite;
+            animation-delay: 0.5s;
+        }
+        @keyframes message{
+            
+            100%{
+                left: 100%;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sms"><span>Hello world!<span><img src="airplane-svgrepo-com.svg" alt="plane"></div>
+    </div>
+</body>
+</html>

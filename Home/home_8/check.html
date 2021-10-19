@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(49, 44, 44);
+        }
+        div.check{
+            text-align: center;
+          
+        }
+        input{
+            display: none;
+        }
+        label{
+            position: relative;
+        }
+        label::before{
+            height: 120px;
+            width: 120px;
+            background-image: url(lamp-svgrepo-com.svg);
+            position: absolute;
+            background-size: cover;
+            right: -60px;
+            z-index: 3;
+            cursor: pointer;
+        }
+        input:checked + label::before{
+            content: "";
+            height: 120px;
+            width: 120px;
+            background-image: url(lamp-svgrepo-com.svg);
+            position: absolute;
+            background-size: cover;
+            right: -60px;
+            z-index: 3;
+            cursor: pointer;
+            }
+        input + label::before{
+            content: "";
+        }
+        .light{
+            height: 600px;
+            width: 600px;
+            background-color: lightyellow;
+            margin: 0 auto;
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            position: relative;
+            display: none;
+        }
+        input:checked ~ div.light{
+            display: block;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="check">
+        
+        <form action="get">
+            
+            <input type="checkbox" id="check">
+            <label for="check"></label>
+            <div class="light"></div>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
