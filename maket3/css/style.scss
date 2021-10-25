@@ -1,0 +1,23 @@
+@import "variables";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: $ds;
+    margin: 0 auto;
+}
+.header{
+    & .container{
+        display: flex;
+    }
+    .logo{
+        img{
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
