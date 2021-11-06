@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type='button' value='ввод информации о стране' onclick='addCountry(countryName,capitalName)'>
+    <input type='button' value='удаление информации о стране' onclick='deleteCountry(countryName)'>
+    <input type='button' value='получение информации о стране' onclick='getCountryInfo(countryName)'>
+    <input type='button' value='перечень всех стран' onclick='listCountrys()'>
+
+
+
+
+
+
+    <script>
+        // debugger
+
+        var countrysH={};
+    
+        function addCountry(countryName,capitalName) {
+            var countryName = prompt("Назовите страну");
+            var capitalName = prompt("Назовите её столицу")
+            countrysH[countryName]=capitalName;
+        }
+    
+        function deleteCountry(countryName) {
+            countrysH = prompt("Назовите страну, которую хотите удалить");
+            delete countrysH[countryName];
+        }
+    
+        function getCountryInfo(countryName) {
+            countryName = prompt("Назовите страну, о которой хотите получить инфу")
+            if ( countryName in countrysH )
+                return 'страна: ' + countryName + ' столица: ' + countrysH[countryName] ;
+            else
+                return 'нет информации о стране ' + countryName + '!' ;
+        }
+    
+        function listCountrys() {
+            var res="";
+            for ( var CN in countrysH )
+                res+='\n'+getCountryInfo(CN);
+            return res;
+        }
+    
+        addCountry('Германия','Берлин');
+        addCountry('Венгрия','Будапешт');
+        addCountry('Франция','Париж');
+    
+        console.log( "список стран:" + listCountrys() );
+    
+    </script>
+</body>
+</html>

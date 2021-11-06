@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        debugger
+        var name = prompt("Ваше имя?");
+        var lastname = prompt("Ваша фамилия?");
+        var middlename = prompt("Ваше отчество?");
+        var age = parseInt(prompt("Ваш возраст?"));
+        if ( isNaN(age) ){
+            console.log( 'Вы ввели некорректное число!' );
+            alert("Вы ввели некорректное число");
+            var age = parseInt(prompt("Ваш возраст?"));
+        }
+        var gender = confirm ("Вы пол - мужской?");
+            (gender) && (age<62) 
+            ? 
+            (alert("Ваша ФИО: " + name + lastname + middlename
+            + "\nВаш возраст в годах: " + age 
+            + "\nВаш возраст в днях: " + (age*365)
+            + "\nчерез 5 лет вам будет: " + (age+5) 
+            + "\nваш пол: мужской" 
+            + "\nвы на пенсии: нет")) 
+            : 
+            (gender) && (age>=62) ? 
+            (alert("Ваша ФИО: " + name + lastname + middlename
+            + "\nВаш возраст в годах: " + age 
+            + "\nВаш возраст в днях: " + (age*365)
+            + "\nчерез 5 лет вам будет: " + (age+5) 
+            + "\nваш пол: мужской" 
+            + "\nвы на пенсии: да"))
+            ((gender=="false") && (age<58))
+            ? 
+            (alert("Ваша ФИО: " + name + lastname + middlename
+            + "\nВаш возраст в годах: " + age 
+            + "\nВаш возраст в днях: " + (age*365)
+            + "\nчерез 5 лет вам будет: " + (age+5) 
+            + "\nваш пол: женский" 
+            + "\nвы на пенсии: нет"))
+            :
+            ((gender=="false") && (age>=58)):
+            alert("Ваша ФИО: " + name + lastname + middlename
+            + "\nВаш возраст в годах: " + age 
+            + "\nВаш возраст в днях: " + (age*365)
+            + "\nчерез 5 лет вам будет: " + (age+5) 
+            + "\nваш пол: женский" 
+            + "\nвы на пенсии: да");
+
+    </script>
+</body>
+</html>
