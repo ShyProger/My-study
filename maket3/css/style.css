@@ -3,158 +3,21 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Orchidea Pro ExBd'; }
 
 body {
   height: 10000px; }
 
 .container {
-  width: 1320px;
+  width: 1360px;
   margin: 0 auto; }
 
-.header {
-  height: 100px; }
-  .header .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 100%; }
-    .header .container ul {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
-      .header .container ul:first-child li {
-        margin-right: 8px;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 36px;
-        line-height: 44px;
-        color: #000000; }
-    .header .container a {
-      text-decoration: none;
-      color: #131212; }
-    .header .container a:hover {
-      text-decoration: underline; }
-    .header .container ul li {
-      list-style-type: none;
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 22px; }
-    .header .container ul:first-child li:first-child {
-      margin-right: 8px;
-      font-style: normal;
-      font-weight: 900;
-      font-size: 36px;
-      line-height: 44px;
-      color: #000000; }
-    .header .container ul:nth-child(2) li {
-      margin-right: 48px; }
-    .header .container ul:last-child li {
-      margin-right: 32px; }
-  .header img {
-    width: 60px;
-    height: 60px; }
-
-.covid {
-  background: rgba(19, 106, 69, 0.15);
-  height: 67px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .covid div {
-    width: 557px;
-    margin-right: 63px;
-    margin-left: 63px; }
-  .covid span {
-    font-weight: 200;
-    font-size: 17px;
-    line-height: 22px;
-    opacity: .7; }
-  .covid a {
-    color: #000000;
-    font-weight: 200;
-    font-size: 17px;
-    line-height: 22px; }
-
-.filter .filter-top span {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: #8A8A8A; }
-.filter .filter-top .filter-top-bottom {
+.header .header-top .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  .filter .filter-top .filter-top-bottom ul:first-child {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    color: #131212; }
-  .filter .filter-top .filter-top-bottom ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .filter .filter-top .filter-top-bottom ul li {
-      margin-right: 32px;
-      list-style-type: none; }
-.filter .container .filter-left {
-  width: 375px;
-  margin-top: 36px; }
-  .filter .container .filter-left .sport-type ul li {
-    list-style-type: none;
-    margin-bottom: 16px; }
-  .filter .container .filter-left .brand {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-    .filter .container .filter-left .brand ul {
-      margin-bottom: 20px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-      list-style-type: none; }
-      .filter .container .filter-left .brand ul li:first-child {
-        margin-right: 207px; }
-  .filter .container .filter-left label {
-    margin-bottom: 16px; }
-  .filter .container .filter-left .discount ul {
-    margin-bottom: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    list-style-type: none; }
-    .filter .container .filter-left .discount ul li:first-child {
-      margin-right: 207px; }
+          justify-content: space-between; }
 
 /*# sourceMappingURL=style.css.map */

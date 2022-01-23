@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Orchidea Pro ExBd';
 }
 body{
     height: 10000px;
@@ -13,152 +13,15 @@ body{
     margin: 0 auto;
 }
 .header{
-    height: 100px;
-    & .container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 100%;
-        & ul{
-            display: flex;
-            align-items: center;
-            &:first-child li{
-            margin-right: 8px;
-            font-style: normal;
-            font-weight: 900;
-            font-size: 36px;
-            line-height: 44px;
-            color: #000000;
-            }
-        }
-        a{
-            text-decoration: none;
-            color: #131212;
-        }
-        a:hover{
-            text-decoration: underline; 
-        }
-        & ul li{
-            list-style-type: none;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 22px;
-        }
-        & ul:first-child li:first-child{
-            margin-right: 8px;
-            font-style: normal;
-            font-weight: 900;
-            font-size: 36px;
-            line-height: 44px;
-            color: #000000;
-        }
-        & ul:nth-child(2) li{
-            margin-right: 48px;
-        }
-        & ul:last-child li{
-            margin-right: 32px;
-        }
-    }
-    & {
-        img{
-            width: 60px;
-            height: 60px;
-        }
-    }
-}
-.covid{
-    background: rgba(19, 106, 69, 0.15);
-    height: 67px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    & div{
-        width: 557px;
-        margin-right: 63px;
-        margin-left: 63px;
-    }
-    & span{
-        
-        font-weight: 200;
-        font-size: 17px;
-        line-height: 22px;
-        opacity: .7;
-    
-    }
-    & a{
-        color: #000000;
-        font-weight: 200;
-        font-size: 17px;
-        line-height: 22px;
-    }
-    
-}
-.filter{
-    .filter-top{
-        & span{
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 17px;
-            color: #8A8A8A;
-        }
-        .filter-top-bottom{
+    .header-top{
+        & .container{
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            & ul:first-child{
-                font-weight: bold;
-                font-size: 24px;
-                line-height: 29px;
-                color: #131212;
-            }
+
             & ul{
-                display: flex;
-                & li{
-                    margin-right: 32px;
-                    list-style-type: none;
-                }
-            }
-        }
-    }
-    & .container{
-        & .filter-left{
-            width: 375px;
-            margin-top: 36px;
-            & .sport-type{
-                & ul li{
-                    list-style-type: none;
-                    margin-bottom: 16px;
-                }
-            }
-            & .brand{
-                display: flex;
-                flex-direction: column;
-                & ul{
-                    margin-bottom: 20px;
-                    display: flex;
-                    justify-content: space-between;
-                    list-style-type: none;
-                    & li:first-child{
-                        margin-right: 207px;
-                    }
-                }
-            }
-                & label{
-                    margin-bottom: 16px;
-                }
-            & .discount{
-                & ul{
-                    margin-bottom: 20px;
-                    display: flex;
-                    justify-content: space-between;
-                    list-style-type: none;
-                    & li:first-child{
-                        margin-right: 207px;
-                    }
-                }
-            
+                // display: flex;
+                // flex-flow: row;
             }
         }
     }
 }
-
